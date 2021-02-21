@@ -24,14 +24,14 @@ The enquire will then get estimated with the <strike>highest</strike> best quote
 Required header for each request:
 * <code>X-AUTH-TOKEN: _WvpbpJOns9ZxdOIuxWMTsFFj0AdZY0KubskvSUhIb0 </code>
 
-##get <code>/parcels/{id}</code>
+## get <code>/parcels/{id}</code>
 
 Example of response: 
 <code>
 {"id":396,"name":"Tiny box","weight":"0.40","declaredValue":1300,"volume":"0.0007900","quote":"39.00","price_model":"value"}
 </code>
 
-##post <code>/parcels/</code>
+## post <code>/parcels/</code>
 
 Example of request: 
 <code>
@@ -48,7 +48,7 @@ Example of response:
 {"status":"Parcel saved!","id":1}
 </code>
 
-##put <code>/parcels/</code>
+## put <code>/parcels/</code>
 
 Example of request: 
 <code>
@@ -65,14 +65,14 @@ Example of response:
 {"status":"Parcel updated!","id":1}
 </code>
 
-##delete <code>/parcels/{id}</code>
+## delete <code>/parcels/{id}</code>
 
 Example of response: 
 <code>
 {"status":"Parcel deleted!"}
 </code>
 
-##get <code>/prices/?parcelIds={ids}</code>
+## get <code>/prices/?parcelIds={ids}</code>
 
 Example of response: 
 <code>
